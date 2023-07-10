@@ -1,0 +1,102 @@
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/02/54/26/52/360_F_254265251_x2xgxCYBfMQZEFkaJuX3YYfEQ7jIpKtd.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+.menu{
+        animation-duration: 3s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 36%;
+          width: 100%;
+        }
+      }
+
+.menu {
+    background: linear-gradient( rgb(156, 0, 199) 75%, rgb(112, 26, 158), rgb(96, 25, 155));
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    max-width: 600px;
+    border-radius: 10px;
+    border-style:dotted;
+}
+
+h1,h2{
+    text-align: center;
+    color: white;
+    font-family:Snell Roundhand, cursive;
+    font-size: 28px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: FreeMono, monospace;
+    font-size: 18px;
+}
+
+.quantidade {
+    size: 18px;
+    text-align: left;
+    width: 60%;
+    display: inline-block;
+}
+.preço {
+    text-align: right;
+    display: inline-block;
+    width: 30%;
+
+}
+hr {
+    height: 2px;
+    background-color: rgb(248, 67, 245);
+    border-color: rgb(233, 0, 225);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin: auto;
+}
+
+.Criador {
+    font-family: fantasy;
+}
+
+input300ML {
+
+    text-align: right;
+    right:  670px;
+    bottom: 670px;
+    top: auto;
+    position: absolute;
+
+
+}
+
+.butão {
+    position: relative;
+    right: auto;
+    left: 265px;
+    border: 0;
+    line-height: 2.5;
+    font-size: 1rem;
+    border-style: solid;
+    border-color: aliceblue;
+    background:rgba(209, 7, 182);
+    text-shadow: 1px 1px 1px #000;
+    color: #fff;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+ }
